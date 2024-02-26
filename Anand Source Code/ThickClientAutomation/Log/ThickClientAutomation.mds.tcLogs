@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45202.5172622106"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{AE0085BD-EACE-4DA6-BB55-49F02D7C9087}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="relpath" type="S" value="03-10-2023_12_24_51_455\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45202.5291402546"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{84F94823-7763-4C5D-9F47-E662422090FE}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="relpath" type="S" value="03-10-2023_12_41_57_718\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45202.5302802083"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{AF8E52CB-BC0C-4E4A-9CBB-4BF56E2853EF}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="relpath" type="S" value="03-10-2023_12_43_36_210\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45202.5312011227"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{533541E9-A0E3-4E48-A709-588BDE3CFD77}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="relpath" type="S" value="03-10-2023_12_44_55_777\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45202.5328896759"/>
+				<Prp name="description" type="S" value="Script Test Log [SearchFunctionality\VerifyUpdateQueryWorkingCorrectly]"/>
+				<Prp name="key" type="S" value="{CFD48D9B-F8BD-4B4B-8E0F-3283150460DB}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SearchFunctionality\VerifyUpdateQueryWorkingCorrectly]"/>
+				<Prp name="relpath" type="S" value="03-10-2023_12_47_21_668\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45202.534066088"/>
+				<Prp name="description" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="key" type="S" value="{EF2E6A28-E485-4187-87BA-98A092EEAC73}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="relpath" type="S" value="03-10-2023_12_49_03_310\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45202.5369989583"/>
+				<Prp name="description" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="key" type="S" value="{4AA97DE6-C9F3-4389-A3C1-CF8256DCFF68}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="relpath" type="S" value="03-10-2023_12_53_16_710\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45202.5507641204"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4FC2AC12-1B05-44D3-BDE3-C500A92E6CE1}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SearchFunctionality\VerifyNewQueryCreationAfterDeletionOfAllAueryAtATime]"/>
+				<Prp name="relpath" type="S" value="03-10-2023_13_13_06_20\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45202.5508392824"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{54B9E922-62EF-4ED5-9EE4-DFAEDE706F4E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="relpath" type="S" value="03-10-2023_13_13_12_514\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45202.5518160995"/>
+				<Prp name="description" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="key" type="S" value="{1CD9BB86-8A41-428F-84A8-DAFDB4BA77E4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="relpath" type="S" value="03-10-2023_13_14_36_911\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45202.5567883565"/>
+				<Prp name="description" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="key" type="S" value="{27DCF23C-E25D-4269-9075-8397AB4D5D32}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SearchFunctionalityOrQuerySuite\SearchSuite]"/>
+				<Prp name="relpath" type="S" value="03-10-2023_13_21_46_514\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

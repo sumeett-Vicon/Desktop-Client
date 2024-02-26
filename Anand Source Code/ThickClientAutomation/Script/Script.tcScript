@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="FunctionalLabrary">
+			<child name="CommonUtility" key="{4DAA7694-4253-4561-B36E-6DCFED839864}" path="CommonUtility.py" />
+		</folder>
+		<folder name="TestCases">
+			<child name="SearchFunctionality" key="{6E64521F-5C5B-4273-B265-34ED10F74949}" path="SearchFunctionality.py" />
+		</folder>
+		<folder name="TestSuite">
+			<child name="SearchFunctionalityOrQuerySuite" key="{9EF136F5-DC5F-493F-916D-E46235D56312}" path="SearchFunctionalityOrQuerySuite.py" />
+		</folder>
+	</children>
+</Root>

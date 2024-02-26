@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 4">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="83"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Expected camera is dragged on Monitoring page."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5420775694"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45166.3129880556"/>
+					<Prp name="click point x" type="I" value="230"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="201"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="113"/>
+					<Prp name="line #" type="I" value="106"/>
+					<Prp name="object right" type="I" value="263"/>
+					<Prp name="object name" type="S" value="Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1041"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (228, 88) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl&#xA;(Sys.Process(&quot;Valerus.Bootstrapper&quot;).WPFObject(&quot;HwndSource: shell&quot;).WPFObject(&quot;shell&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;ctnt&quot;).WPFObject(&quot;ModuleView&quot;).WPFObject(&quot;tabCtrl&quot;).WPFObject(&quot;MonitoringModule&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;SliderControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="106"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5421557639"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="123"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="All player windows are stopped."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5424119213"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="113"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Clicked on Stop All button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5421783565"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45166.3129499769"/>
+					<Prp name="click point x" type="I" value="126"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="305"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="285"/>
+					<Prp name="line #" type="I" value="96"/>
+					<Prp name="object right" type="I" value="263"/>
+					<Prp name="object name" type="S" value="Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl.RadtreeviewitemUngrouped.RadTreeViewItem6"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="322"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 124, 20.&#xA;End point: 582, 23.&#xA;Dragging distance: 458, 3.&#xA;&#xA;Tested object:&#xA;Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl.RadtreeviewitemUngrouped.RadTreeViewItem6&#xA;(Sys.Process(&quot;Valerus.Bootstrapper&quot;).WPFObject(&quot;HwndSource: shell&quot;).WPFObject(&quot;shell&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;ctnt&quot;).WPFObject(&quot;ModuleView&quot;).WPFObject(&quot;tabCtrl&quot;).WPFObject(&quot;MonitoringModule&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;SliderControl&quot;, &quot;&quot;, 1).WPFObject(&quot;RadTreeViewItem&quot;, &quot;&quot;, 1).WPFObject(&quot;RadTreeViewItem&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="96"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5421306019"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45166.3130041667"/>
+					<Prp name="click point x" type="I" value="518"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="143"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object left" type="I" value="492"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="136"/>
+					<Prp name="line #" type="I" value="110"/>
+					<Prp name="object right" type="I" value="545"/>
+					<Prp name="object name" type="S" value="Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.HeaderbuttonStopAll"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="150"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed within the area containing the following text:&#xA;Stop All"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="110"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text area was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5421724421"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45166.3128608912"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="113"/>
+					<Prp name="line #" type="I" value="76"/>
+					<Prp name="object right" type="I" value="263"/>
+					<Prp name="object name" type="S" value="Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1041"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'172.20.0.238_Camera' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl&#xA;(Sys.Process(&quot;Valerus.Bootstrapper&quot;).WPFObject(&quot;HwndSource: shell&quot;).WPFObject(&quot;shell&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;ctnt&quot;).WPFObject(&quot;ModuleView&quot;).WPFObject(&quot;tabCtrl&quot;).WPFObject(&quot;MonitoringModule&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;SliderControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="76"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5420309143"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45166.3129170255"/>
+					<Prp name="click point x" type="I" value="230"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="201"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="113"/>
+					<Prp name="line #" type="I" value="85"/>
+					<Prp name="object right" type="I" value="263"/>
+					<Prp name="object name" type="S" value="Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1041"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (228, 88) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl&#xA;(Sys.Process(&quot;Valerus.Bootstrapper&quot;).WPFObject(&quot;HwndSource: shell&quot;).WPFObject(&quot;shell&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;ctnt&quot;).WPFObject(&quot;ModuleView&quot;).WPFObject(&quot;tabCtrl&quot;).WPFObject(&quot;MonitoringModule&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;SliderControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="85"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5420846181"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45166.3129319676"/>
+					<Prp name="click point x" type="I" value="122"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="202"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="113"/>
+					<Prp name="line #" type="I" value="91"/>
+					<Prp name="object right" type="I" value="263"/>
+					<Prp name="object name" type="S" value="Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1041"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (120, 89) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl&#xA;(Sys.Process(&quot;Valerus.Bootstrapper&quot;).WPFObject(&quot;HwndSource: shell&quot;).WPFObject(&quot;shell&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;ctnt&quot;).WPFObject(&quot;ModuleView&quot;).WPFObject(&quot;tabCtrl&quot;).WPFObject(&quot;MonitoringModule&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;SliderControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="91"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5420996412"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 9">
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.Valerus_Bootstra...bCtrl.tabView.brdSelect.Height&lt;b&gt; equals &lt;/b&gt;81.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{E1D7E268-0940-4088-A886-497BCF759024}.{83CF077D-96A0-4D83-A575-A67B2E429397}'&gt;Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.tabView.brdSelect&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Height&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;81&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;81&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="101"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: Height equals 81."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5421484722"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45166.312858588"/>
+					<Prp name="click point x" type="I" value="122"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="202"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="113"/>
+					<Prp name="line #" type="I" value="74"/>
+					<Prp name="object right" type="I" value="263"/>
+					<Prp name="object name" type="S" value="Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1041"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (120, 89) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl&#xA;(Sys.Process(&quot;Valerus.Bootstrapper&quot;).WPFObject(&quot;HwndSource: shell&quot;).WPFObject(&quot;shell&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;ctnt&quot;).WPFObject(&quot;ModuleView&quot;).WPFObject(&quot;tabCtrl&quot;).WPFObject(&quot;MonitoringModule&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;SliderControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="74"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5420267593"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45166.3129336806"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="113"/>
+					<Prp name="line #" type="I" value="93"/>
+					<Prp name="object right" type="I" value="263"/>
+					<Prp name="object name" type="S" value="Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1041"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'172.20.0.238_Mic' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl&#xA;(Sys.Process(&quot;Valerus.Bootstrapper&quot;).WPFObject(&quot;HwndSource: shell&quot;).WPFObject(&quot;shell&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;ctnt&quot;).WPFObject(&quot;ModuleView&quot;).WPFObject(&quot;tabCtrl&quot;).WPFObject(&quot;MonitoringModule&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;SliderControl&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="93"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5421039352"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45166.3128770833"/>
+					<Prp name="click point x" type="I" value="126"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="305"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object left" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="285"/>
+					<Prp name="line #" type="I" value="79"/>
+					<Prp name="object right" type="I" value="263"/>
+					<Prp name="object name" type="S" value="Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl.RadtreeviewitemUngrouped.RadTreeViewItem6"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="322"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 124, 20.&#xA;End point: 582, 23.&#xA;Dragging distance: 458, 3.&#xA;&#xA;Tested object:&#xA;Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.SliderControl.RadtreeviewitemUngrouped.RadTreeViewItem6&#xA;(Sys.Process(&quot;Valerus.Bootstrapper&quot;).WPFObject(&quot;HwndSource: shell&quot;).WPFObject(&quot;shell&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;ScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;ctnt&quot;).WPFObject(&quot;ModuleView&quot;).WPFObject(&quot;tabCtrl&quot;).WPFObject(&quot;MonitoringModule&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;container&quot;).WPFObject(&quot;Border&quot;, &quot;&quot;, 2).WPFObject(&quot;SliderControl&quot;, &quot;&quot;, 1).WPFObject(&quot;RadTreeViewItem&quot;, &quot;&quot;, 1).WPFObject(&quot;RadTreeViewItem&quot;, &quot;&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="79"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5420578588"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="102"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Expected Mic is dragged on Monitoring page."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.542148588"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{0B17485A-A8EF-4759-9E6A-C2ADABFD9D57}"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.Valerus_Bootstra...bView.brdSelect.Caption.WPFControlText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;172.20.0.238_Camera&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{E1D7E268-0940-4088-A886-497BCF759024}.{C825ECA3-BCB9-403C-B550-31C23B7C3287}'&gt;Aliases.Valerus_Bootstrapper.HwndSource_shell.shell.tabCtrl.tabView.brdSelect.Caption&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;WPFControlText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;172.20.0.238_Camera&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;172.20.0.238_Camera&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="82"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: WPFControlText equals (case-sensitive) &quot;172.20.0.238_Camera&quot;."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45166.5420774537"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

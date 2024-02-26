@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="FunctionalLibrary">
+			<child name="CommonUtility" key="{E016C093-F37D-42F7-B123-77A5DD101203}" path="CommonUtility.py" />
+		</folder>
+		<folder name="Test Suite">
+			<child name="MonitoringPageTestSuit" key="{C5626253-3021-45BA-AC80-E6E9229A1FF1}" path="MonitoringPageTestSuit.py" />
+		</folder>
+		<folder name="Test Cases">
+			<child name="MonitoringTestCases" key="{0B17485A-A8EF-4759-9E6A-C2ADABFD9D57}" path="MonitoringTestCases.py" />
+		</folder>
+	</children>
+</Root>

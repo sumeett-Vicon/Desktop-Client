@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="toggleBtn" key="{D2E61F85-FDA4-469B-9118-36DFCECAB572}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="toggleBtn" ID="{D2E61F85-FDA4-469B-9118-36DFCECAB572}" FileName="Regions\toggleBtn.png" Update="True" />
+		</child>
+		<child name="Grid" key="{83659586-EBFF-4FE8-959B-21E9B5D7BB60}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Grid" ID="{83659586-EBFF-4FE8-959B-21E9B5D7BB60}" FileName="Regions\Grid.png" Update="True" />
+		</child>
+		<child name="Grid1" key="{CE200A3E-4214-46B5-800A-7C772290D4FC}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Grid1" ID="{CE200A3E-4214-46B5-800A-7C772290D4FC}" FileName="Regions\Grid1.png" Update="False" />
+		</child>
+		<child name="Grid2" key="{0FE166BE-7ADB-4CE4-BCDE-CCF4F49956E2}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Grid2" ID="{0FE166BE-7ADB-4CE4-BCDE-CCF4F49956E2}" FileName="Regions\Grid2.png" Update="False" />
+		</child>
+		<child name="Grid3" key="{67198FC1-373E-4984-8580-D03CE809F852}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Grid3" ID="{67198FC1-373E-4984-8580-D03CE809F852}" FileName="Regions\Grid3.png" Update="False" />
+		</child>
+		<child name="Grid4" key="{EC76663A-3E03-4769-8F69-FC3558CAECA5}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Grid4" ID="{EC76663A-3E03-4769-8F69-FC3558CAECA5}" FileName="Regions\Grid4.png" Update="False" />
+		</child>
+		<child name="Grid5" key="{062F750C-1D5D-4F19-A9E0-28904905F615}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Grid5" ID="{062F750C-1D5D-4F19-A9E0-28904905F615}" FileName="Regions\Grid5.png" Update="False" />
+		</child>
+		<child name="Grid6" key="{4C5364B2-D396-4A90-98E6-400F44067F91}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Grid6" ID="{4C5364B2-D396-4A90-98E6-400F44067F91}" FileName="Regions\Grid6.png" Update="False" />
+		</child>
+		<child name="Grid7" key="{A9A98C54-1155-4374-A649-5120397B8D59}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Grid7" ID="{A9A98C54-1155-4374-A649-5120397B8D59}" FileName="Regions\Grid7.png" Update="False" />
+		</child>
+		<child name="Border" key="{15AB9A14-B7B9-4A6F-87D1-960221F2F1A2}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Border" ID="{15AB9A14-B7B9-4A6F-87D1-960221F2F1A2}" FileName="Regions\Border.png" Update="False" />
+		</child>
+		<child name="Grid8" key="{4844CA6B-2385-4163-8218-B3F9FA3678C4}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Grid8" ID="{4844CA6B-2385-4163-8218-B3F9FA3678C4}" FileName="Regions\Grid8.png" Update="False" />
+		</child>
+	</children>
+</Root>
